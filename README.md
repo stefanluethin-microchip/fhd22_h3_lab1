@@ -60,7 +60,8 @@ Steps to create initial git-repo:
       path-2-repo: C:\mchp\0cust\FHDortmund\2212xx_Vorlesung\Solutions\fhd22_h3_lab1
       repoe-name:  'filled out automatically, as repo already create with gitbash above'
       Local folder: [root] -> filled out
-      -> hit 'Add'
-
+      -> hit 'Add'  => see 'h3_lab1_samd21_repoSourceTree-init.jpg'
+   3) now work with SourceTree 
+        -> see 'h3_lab1_samd21_repoSourceTree-work.jpg'
 
 Author: stefan.luethin@microchip.com (SL, 24.10.2022)
