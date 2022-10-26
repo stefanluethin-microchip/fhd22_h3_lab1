@@ -1,31 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><configurationDescriptor version="65">
-  <logicalFolder displayName="root" name="root" projectFiles="true">
-    <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
-      <logicalFolder displayName="config" name="config" projectFiles="true">
-        <logicalFolder displayName="default" name="default" projectFiles="true">
-          <logicalFolder displayName="peripheral" name="peripheral" projectFiles="true">
-            <logicalFolder displayName="clock" name="clock" projectFiles="true">
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="default" displayName="default" projectFiles="true">
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="clock" displayName="clock" projectFiles="true">
               <itemPath>../src/config/default/peripheral/clock/plib_clock.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="evsys" name="evsys" projectFiles="true">
+            <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
               <itemPath>../src/config/default/peripheral/evsys/plib_evsys.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvic" name="nvic" projectFiles="true">
+            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/default/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvmctrl" name="nvmctrl" projectFiles="true">
+            <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/default/peripheral/nvmctrl/plib_nvmctrl.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="port" name="port" projectFiles="true">
+            <logicalFolder name="port" displayName="port" projectFiles="true">
               <itemPath>../src/config/default/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="sercom" name="sercom" projectFiles="true">
-              <logicalFolder displayName="usart" name="usart" projectFiles="true">
+            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
                 <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
                 <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom3_usart.h</itemPath>
               </logicalFolder>
             </logicalFolder>
-            <logicalFolder displayName="systick" name="systick" projectFiles="true">
+            <logicalFolder name="systick" displayName="systick" projectFiles="true">
               <itemPath>../src/config/default/peripheral/systick/plib_systick.h</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -37,9 +40,11 @@
           <itemPath>../src/config/default/device_cache.h</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder displayName="packs" name="packs" projectFiles="true">
-        <logicalFolder displayName="ATSAMD21J18A_DFP" name="ATSAMD21J18A_DFP" projectFiles="true">
-          <logicalFolder displayName="component" name="component" projectFiles="true">
+      <logicalFolder name="packs" displayName="packs" projectFiles="true">
+        <logicalFolder name="ATSAMD21J18A_DFP"
+                       displayName="ATSAMD21J18A_DFP"
+                       projectFiles="true">
+          <logicalFolder name="component" displayName="component" projectFiles="true">
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/adc.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/evsys.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/i2s.h</itemPath>
@@ -65,7 +70,7 @@
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/port.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/component/sysctrl.h</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="instance" name="instance" projectFiles="true">
+          <logicalFolder name="instance" displayName="instance" projectFiles="true">
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/sercom3.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/tcc2.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/usb.h</itemPath>
@@ -104,15 +109,15 @@
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/dsu.h</itemPath>
             <itemPath>../src/packs/ATSAMD21J18A_DFP/instance/mtb.h</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="pio" name="pio" projectFiles="true">
+          <logicalFolder name="pio" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAMD21J18A_DFP/pio/samd21j18a.h</itemPath>
           </logicalFolder>
           <itemPath>../src/packs/ATSAMD21J18A_DFP/samd21j18a.h</itemPath>
         </logicalFolder>
-        <logicalFolder displayName="CMSIS" name="CMSIS" projectFiles="true">
-          <logicalFolder displayName="CMSIS" name="CMSIS" projectFiles="true">
-            <logicalFolder displayName="Core" name="Core" projectFiles="true">
-              <logicalFolder displayName="Include" name="Include" projectFiles="true">
+        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="Core" displayName="Core" projectFiles="true">
+              <logicalFolder name="Include" displayName="Include" projectFiles="true">
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
@@ -129,42 +134,46 @@
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
-      <logicalFolder displayName="config" name="config" projectFiles="true">
-        <logicalFolder displayName="default" name="default" projectFiles="true">
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="default" displayName="default" projectFiles="true">
           <itemPath>../src/config/default/ATSAMD21J18A.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder displayName="Source Files" name="SourceFiles" projectFiles="true">
-      <logicalFolder displayName="config" name="config" projectFiles="true">
-        <logicalFolder displayName="default" name="default" projectFiles="true">
-          <logicalFolder displayName="peripheral" name="peripheral" projectFiles="true">
-            <logicalFolder displayName="clock" name="clock" projectFiles="true">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="config" displayName="config" projectFiles="true">
+        <logicalFolder name="default" displayName="default" projectFiles="true">
+          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="clock" displayName="clock" projectFiles="true">
               <itemPath>../src/config/default/peripheral/clock/plib_clock.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="evsys" name="evsys" projectFiles="true">
+            <logicalFolder name="evsys" displayName="evsys" projectFiles="true">
               <itemPath>../src/config/default/peripheral/evsys/plib_evsys.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvic" name="nvic" projectFiles="true">
+            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/default/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvmctrl" name="nvmctrl" projectFiles="true">
+            <logicalFolder name="nvmctrl" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/default/peripheral/nvmctrl/plib_nvmctrl.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="port" name="port" projectFiles="true">
+            <logicalFolder name="port" displayName="port" projectFiles="true">
               <itemPath>../src/config/default/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="sercom" name="sercom" projectFiles="true">
-              <logicalFolder displayName="usart" name="usart" projectFiles="true">
+            <logicalFolder name="sercom" displayName="sercom" projectFiles="true">
+              <logicalFolder name="usart" displayName="usart" projectFiles="true">
                 <itemPath>../src/config/default/peripheral/sercom/usart/plib_sercom3_usart.c</itemPath>
               </logicalFolder>
             </logicalFolder>
-            <logicalFolder displayName="systick" name="systick" projectFiles="true">
+            <logicalFolder name="systick" displayName="systick" projectFiles="true">
               <itemPath>../src/config/default/peripheral/systick/plib_systick.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder displayName="stdio" name="stdio" projectFiles="true">
+          <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
             <itemPath>../src/config/default/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/default/interrupts.c</itemPath>
@@ -177,7 +186,9 @@
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/config/default/pin_configurations.csv</itemPath>
     </logicalFolder>
-    <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="false">
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
       <itemPath>Makefile</itemPath>
       <itemPath>mcc_h3_p1.mc3</itemPath>
     </logicalFolder>
@@ -188,8 +199,8 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>ATSAMD21J18A</targetDevice>
-        <targetHeader/>
-        <targetPluginBoard/>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.10</languageToolchainVersion>
@@ -211,7 +222,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile/>
+          <alternateLoadableFile></alternateLoadableFile>
         </loading>
         <subordinates>
         </subordinates>
@@ -219,9 +230,9 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep/>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep/>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -234,7 +245,8 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/default;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/default;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -331,7 +343,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/default;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/default;../src/packs/ATSAMD21J18A_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -372,8 +385,10 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
-        <property key="firmware.path" value="Press to browse for a specific firmware version"/>
-        <property key="firmware.toolpack" value="Press to select which tool pack to use"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
         <property key="freeze.timers" value="false"/>
         <property key="lastid" value=""/>
@@ -387,13 +402,15 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
-        <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
@@ -404,8 +421,10 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
         <property key="x.erase.clearprot" value="true"/>
       </EdbgTool>
@@ -419,8 +438,10 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
-        <property key="firmware.path" value="Press to browse for a specific firmware version"/>
-        <property key="firmware.toolpack" value="Press to select which tool pack to use"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
         <property key="freeze.timers" value="false"/>
         <property key="lastid" value=""/>
@@ -434,13 +455,15 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-3ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
-        <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
@@ -451,8 +474,10 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
         <property key="x.erase.clearprot" value="true"/>
       </Tool>
