@@ -1,3 +1,4 @@
+#-SL main branch first line
 Simple Harmony3 example to
  a) toggleLED @250ms
  b) print msg on terminal
