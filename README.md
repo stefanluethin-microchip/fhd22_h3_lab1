@@ -1,3 +1,4 @@
+#-feature_readmeEnhancement pull request Test
 Simple Harmony3 example to
  a) toggleLED @250ms
  b) print msg on terminal
